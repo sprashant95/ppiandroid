@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/android"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="7dp"
+        android:scaleType="centerCrop"
+        android:onClick="androidClicked"
+        app:layout_constraintBottom_toTopOf="@+id/apache"
+        app:layout_constraintEnd_toStartOf="@+id/angularjs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/android" />
+
+    <ImageButton
+        android:id="@+id/angularjs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:onClick="angularjsClicked"
+        app:layout_constraintBottom_toTopOf="@+id/codeignitor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/android"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/angularjs" />
+
+    <ImageButton
+        android:id="@+id/apache"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="7dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/git"
+        app:layout_constraintEnd_toStartOf="@+id/codeignitor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/android"
+        app:srcCompat="@drawable/apache" />
+
+    <ImageButton
+        android:id="@+id/codeignitor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/html"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/apache"
+        app:layout_constraintTop_toBottomOf="@+id/angularjs"
+        app:srcCompat="@drawable/codeigniter" />
+
+    <ImageButton
+        android:id="@+id/git"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="60dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/html"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apache"
+        app:srcCompat="@drawable/git" />
+
+    <ImageButton
+        android:id="@+id/html"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="60dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/git"
+        app:layout_constraintTop_toBottomOf="@+id/codeignitor"
+        app:srcCompat="@drawable/html5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
