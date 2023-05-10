@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1088110765069",
+    "firebase_url": "https://ppimultipletextfirebase-default-rtdb.firebaseio.com",
+    "project_id": "ppimultipletextfirebase",
+    "storage_bucket": "ppimultipletextfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088110765069:android:b0445fd09d6bb413a12144",
+        "android_client_info": {
+          "package_name": "com.example.firebaseimageupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088110765069-f78jhkgqlvi700hdbb6rgp0fp4e8oq1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyVbopkeCOSIkApG9QIk05e_mjuaU0L7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088110765069-f78jhkgqlvi700hdbb6rgp0fp4e8oq1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

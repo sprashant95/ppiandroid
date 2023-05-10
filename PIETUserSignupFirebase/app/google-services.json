@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "663493607995",
+    "firebase_url": "https://ppiusersignup-default-rtdb.firebaseio.com",
+    "project_id": "ppiusersignup",
+    "storage_bucket": "ppiusersignup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663493607995:android:a5c0cc3afe5443596b121e",
+        "android_client_info": {
+          "package_name": "com.example.pietusersignupfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663493607995-eoi8kc0jdg2t52h3rs347v1rqk2b6aei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoVs7oSbO2ywn_kOdwwu2C22xonMXZQPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663493607995-eoi8kc0jdg2t52h3rs347v1rqk2b6aei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
